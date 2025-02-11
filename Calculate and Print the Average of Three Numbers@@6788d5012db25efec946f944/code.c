@@ -6,7 +6,7 @@ int main() {
     scanf("%d",&h);
     scanf("%d",&j);
     scanf("%d",&k);
-s=(h+j+k)/3
-    printf("%.2f",s);
+s=(h+j+k)/3;
+    printf("Average %.2f",s);
     return 0;
 }
