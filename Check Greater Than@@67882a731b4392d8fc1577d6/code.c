@@ -1,6 +1,7 @@
 # include <stdio.h>
 int main()
-{ int d,f;
+{
+     int d,f;
 scanf("%d%d",&d,&f);
 s=d>f;
 printf("%d",s);
