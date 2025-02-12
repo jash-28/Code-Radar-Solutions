@@ -4,5 +4,5 @@ int main()
 scanf("%d %d",d,f);
 s=d>f;
 print("%d",s);
-
+return 0;
 }
