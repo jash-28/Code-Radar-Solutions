@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    int e,r;
+    int e,r,c;
     scanf("%d %d",&e,&r);
 c=e|r;
-printf("%d",c)
+printf("%d",c);
+return0
 }
