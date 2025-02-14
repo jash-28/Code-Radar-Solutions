@@ -9,7 +9,7 @@ int main()
     }
     else
     {
-        printdf("Odd");
+        printf("Odd");
     }
     return 0;
 }
