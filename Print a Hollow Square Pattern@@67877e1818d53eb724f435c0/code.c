@@ -9,7 +9,9 @@ int main()
         for (int j=0; j<N;j++){
             if (i==j){
                 for(int k=0 ;k<n;k++){
-                    printf("* ");
+                    printf("* ");}
+                    printf("\n");
+                }
             else{
                 printf("* ");{
                     for (int l; l<space ; l++){
@@ -18,12 +20,7 @@ int main()
                 printf("*");
                 }
             }
-                }
             }
         }
     }
     
-
-    return 0;
-
-}
