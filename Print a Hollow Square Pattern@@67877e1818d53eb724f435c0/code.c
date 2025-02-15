@@ -8,19 +8,19 @@ int main()
     for (int i=0; i<N;i++){
         for (int j=0; j<N;j++){
             if (i==j){
-                for(int k=0 ;k<n;k++){
+                for(int k=0 ;k<N;k++){
                     printf("* ");}
                     printf("\n");
                 }
             else{
                 printf("* ");
-                    for (int l; l<space ; l++){
-                        printf(" ");
-                    }
+                for (int l; l<space ; l++){
+                    printf(" ");
+                }
                 printf("*");
                 
             }
-            }
         }
+    }
 }
     
