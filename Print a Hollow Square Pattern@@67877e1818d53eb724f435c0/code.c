@@ -11,11 +11,11 @@ int main()
                 for(k=0 ;k<n;k++);{
                     printf("* ");
             else{
-                printf("* "){
+                printf("* ");{
                     for (int l; l<space ; l++){
                         print(" ")
                     }
-                printf("*")
+                printf("*");
                 }
             }
                 }
