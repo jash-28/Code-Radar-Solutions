@@ -13,7 +13,7 @@ int main()
             else{
                 printf("* ");{
                     for (int l; l<space ; l++){
-                        print(" ");
+                        printf(" ");
                     }
                 printf("*");
                 }
