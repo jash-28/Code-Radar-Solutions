@@ -3,23 +3,22 @@ int main()
 {
     int N;
     scanf("%d",&N);
-    int space = N - 2;
-
-    for (int i = 0; i < N; i++) {
-        if (i == 0 || i == N - 1) {
-            // Print full row of stars for the first and last row
-            for (int j = 0; j < N; j++) {
+    int space=N-2;
+        for(int j=0; j<N;j++){
+            if(i==0 || i==N-1){
+                for(int k=0 ;k<N;k++){
+                    printf("*");
+                }
+                    printf("\n");
+                }
+            else{
                 printf("*");
-            }
-        } else {
-            // Print stars with spaces in between
-            printf("*");
-            for (int j = 0; j < space; j++) {
-                printf(" ");
-            }
-            printf("*");
+                for (int l; l<space ; l++){
+                    printf(" ");
+                }
+                printf("*");
+                printf("\n");
+                
         }
-        printf("\n");
     }
-
 }
