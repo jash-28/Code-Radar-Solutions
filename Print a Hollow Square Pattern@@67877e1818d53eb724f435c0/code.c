@@ -15,7 +15,7 @@ int main()
                     for (int l; l<space ; l++){
                         print(" ")
                     }
-                print("*")
+                printf("*")
                 }
             }
                 }
