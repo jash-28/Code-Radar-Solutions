@@ -5,12 +5,12 @@ int main()
     scanf("%d",&r);
     if (r%4==0)
     {
-        printf("Leap year");
+        printf("Leap Year");
 
     }
     else 
     {
-        printf("Not a Leap year");
+        printf("Not a Leap Year");
     }
     return 0;
 }
