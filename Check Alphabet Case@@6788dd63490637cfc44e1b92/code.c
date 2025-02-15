@@ -6,7 +6,10 @@ int main(){
     if(temp>=65 && temp<=90){
         printf("Uppercase");
     }
-    else{
+    else if(temp>=97 && temp<=122){
         printf("Lowercase");
+    }
+    else{
+        printf("Not an alphabet");
     }
 }
