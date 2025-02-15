@@ -3,8 +3,8 @@
 int main()
 {
     int N;
-    int space=N-2;
     scanf("%d",&N);
+    int space=N-2;
     for (int i=0; i<N;i++){
         for (int j=0; j<N;j++){
             if (i==j){
@@ -18,9 +18,9 @@ int main()
                     printf(" ");
                 }
                 printf("*");
+                printf("\n");
                 
             }
         }
     }
 }
-    
