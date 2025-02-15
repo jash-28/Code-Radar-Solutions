@@ -13,14 +13,14 @@ int main()
                     printf("\n");
                 }
             else{
-                printf("* ");{
+                printf("* ");
                     for (int l; l<space ; l++){
                         printf(" ");
                     }
                 printf("*");
-                }
+                
             }
             }
         }
-    }
+}
     
