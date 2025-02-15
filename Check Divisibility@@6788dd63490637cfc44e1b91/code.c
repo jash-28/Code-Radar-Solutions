@@ -5,10 +5,11 @@ int main()
     scanf("%d",&e);
     if ((e%5==0)&&(e%7==0))
     {
-        printf("Divisible")
+        printf("Divisible");
     }
     else
     {
-        printf("Not Divisible")
+        printf("Not Divisible");
     }
+    return 0;
 }
