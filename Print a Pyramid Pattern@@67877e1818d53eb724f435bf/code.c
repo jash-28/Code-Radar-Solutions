@@ -10,7 +10,7 @@ int main()
             printf(" ");
         }
         for(int k=0; k<tem2;k++){
-            printf("*")
+            printf("*");
         }
         for (int j=0; j<tem1;j++){
             printf(" ");
