@@ -8,7 +8,7 @@ int main()
   {
       for ( j = 0 ; j < Rows; j++ ) 
       {
-      	if(j <= Rows-i)
+      	if(j < Rows-i)
       	{
           printf(" ");
 	}
