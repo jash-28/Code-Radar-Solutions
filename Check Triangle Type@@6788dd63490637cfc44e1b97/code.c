@@ -7,7 +7,7 @@ int main()
     {
         printf("Equilateral");
     }
-    else if (d==g && d==f || g==f && g==d )
+    else if (d==g && d==f || g==f && g==d || f==d && f==g )
     {
         printf("Isosceles");
     }
@@ -15,4 +15,5 @@ int main()
     {
         printf("Scalene");
     }
+    return 0;
 }
