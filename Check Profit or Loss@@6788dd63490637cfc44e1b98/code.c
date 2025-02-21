@@ -3,11 +3,11 @@ int main()
 {
     int pv,sv;
     scanf("%d %d",&pv,&sv);
-    if (pv>sv)
+    if (sv>pv)
     {
         printf("Profit");
     }
-    else if(sv>pv)
+    else if(pv>sv)
     {
         printf("Loss");
     }
