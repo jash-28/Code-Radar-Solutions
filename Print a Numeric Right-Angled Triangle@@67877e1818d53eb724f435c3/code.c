@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    int N;
+    int N, y=N;
     scanf("%d",&N);
     for (int i=N; i>0;i--)
     {
-        for (int j=N-i; j>=0;j--)
+        for (int j=N-i; j>=0;j--;y++)
         {
-            printf("%d ",j+i);
+            printf("%d ",y);
         }
         printf("\n");
 
