@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int num;
-    scanf("%d", &num);
-    if (num & (1 << 31)) {
-        printf("set");
+    int n;
+    scanf("%d", &n);
+    if (num & (1 << 31)) 
+    {
+        printf("Set");
     } else {
-        printf("not set");
+        printf("Not Set");
     }
     
     return 0;
