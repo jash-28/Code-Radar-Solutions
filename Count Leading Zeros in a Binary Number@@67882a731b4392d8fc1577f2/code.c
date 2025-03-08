@@ -5,8 +5,8 @@ int main()
     scanf("%d",&n);
     for (int i=32;i>0;i--)
     {
-        if (n&(1<<i)) break;
+        if (n&(1<<i))
         count++;
     }
-    printf("%d",count-1);
+    printf("%d",count);
 }
