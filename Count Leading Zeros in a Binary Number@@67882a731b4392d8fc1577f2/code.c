@@ -8,5 +8,5 @@ int main()
         if (n&(1<<i)) break;
         count++;
     }
-    printf("%d",count);
+    printf("%d",count-1);
 }
