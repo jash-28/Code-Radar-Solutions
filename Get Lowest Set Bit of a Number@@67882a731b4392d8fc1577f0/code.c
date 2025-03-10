@@ -2,7 +2,10 @@
 
 int main() 
 {
-    int t;
+    int t, position=0;
     scanf("%d",&t);
-    printf("%d",t&(~t));
+    while(num & 1 == 0)
+    position ++;
+    t=t>>1;
+    printf("%d",position)
 }
