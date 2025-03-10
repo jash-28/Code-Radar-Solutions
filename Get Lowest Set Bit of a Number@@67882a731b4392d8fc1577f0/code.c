@@ -2,10 +2,10 @@
 
 int main() 
 {
-    int t, position=0;
+    int n, pos=0;
     scanf("%d",&t);
-    while(t & 1 == 0)
-    position ++;
-    t=t>>1;
+    while( & 1 == 0)
+    t>>=1;
+    pos ++;
     printf("%d",position);
 }
