@@ -1,12 +1,10 @@
 #include <stdio.h>
-int main()
-{
-    int n,count=0;
-    scanf("%d",&n);
-    for (int i=32;i>0;i++)
-    {
-        if (n&(1>>i+1)) break;
+int main() {
+    int n, count = 0;
+    scanf("%d", &n);
+    while (n % 2 == 0 && n > 0) {
         count++;
+        n /= 2;
     }
-    printf("%d",count);
+    printf("%d", count);
 }
