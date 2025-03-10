@@ -7,5 +7,5 @@ int main()
     while( & 1 == 0)
     t>>=1;
     pos ++;
-    printf("%d",position);
+    printf("%d",pos);
 }
