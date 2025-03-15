@@ -6,4 +6,5 @@ int main() {
     {
         printf("%d",(num>>i)&1);
     }
+    return 0;
 }
