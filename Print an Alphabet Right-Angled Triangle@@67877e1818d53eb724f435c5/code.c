@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    int k,N;
-    scanf("%d",&k);
-    N=k+64;
+    int N;
+    scanf("%d",&N);
+    
     for (int i=N; i>0;i--)
     {
         for (int j=N-i; j>=0;j--)
         {
-            printf("%c",j);
+            printf("%c",'A'+j);
         }
         printf("\n");
 
