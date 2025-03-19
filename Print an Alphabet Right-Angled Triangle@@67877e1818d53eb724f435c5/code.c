@@ -6,7 +6,7 @@ int main()
     
     for (int i=N; i>0;i--)
     {
-        for (int j=N-i; j>=0;j--)
+        for (int j=1; j=n-i;j++)
         {
             printf("%c" ,'A'+j);
         }
