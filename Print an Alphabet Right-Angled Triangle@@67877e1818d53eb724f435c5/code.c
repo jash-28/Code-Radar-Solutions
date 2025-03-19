@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int k;
+    int k,N;
     scanf("%d",&k);
     N=k+64;
     for (int i=N; i>0;i--)
