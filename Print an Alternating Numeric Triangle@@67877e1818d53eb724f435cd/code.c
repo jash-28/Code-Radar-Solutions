@@ -6,16 +6,8 @@ int main()
     for (int i=1;i<=N;i++){
         
         for (int j=0;j<i;j++){
-        if i%2==0;
-
-        {
-            printf("%d",s=(j%2==0)? 1:0);
-        }
-        else 
-         {   s=(j%2==0)? 1:0;
+            s=(j%2==0)? 0:1;
             printf("%d ",s);
-        }
-
         }
         printf("\n");
     }
