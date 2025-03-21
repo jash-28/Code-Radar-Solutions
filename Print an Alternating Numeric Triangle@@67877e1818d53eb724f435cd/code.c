@@ -8,6 +8,6 @@ int main()
         for (int j=0;j<i;j++){
             printf("%d ",s);
         }
-        printf("/n");
+        printf("\n");
     }
 }
