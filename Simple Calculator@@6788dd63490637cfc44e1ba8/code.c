@@ -1,13 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    int s,d;
+    int s,d,c;
     char r;
-    scanf("%d %d %c",&s,&d,&r);
+    scanf("%d %d %d %c",&s,&c,&d,&r);
     switch(r)
     {
         case '+' :
-        printf("%d",s+d);
+        c=s+d;
+        printf("%d",c);
         break;
         case '-' :
         printf("%d",s-d);
