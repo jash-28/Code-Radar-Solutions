@@ -7,7 +7,7 @@ int main()
     {
         for (int j=N-i; j>=0;j--)
         {
-            printf("%d " ,i%j);
+            printf("%d " ,i/j);
         }
         printf("\n");
 
