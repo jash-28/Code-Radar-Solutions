@@ -1,4 +1,4 @@
-include<stdio.h>
+#include<stdio.h>
 
 void isPrime(int);
 
@@ -20,4 +20,3 @@ void isPrime(int c)
         return 1;
     }
 }
-
