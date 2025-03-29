@@ -1,35 +1,23 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <math.h>
 
-void isPrime(int);
-
-void isPrime(int c)
-{
-    int a,b=0;
-    for(a=1;a<=c;a++)
-    {
-        if(c%a==0)
-        {
-            b++;
-        }
+int isPrime(int n) {
+    if (n <= 1) return 0;
+    if (n == 2 || n == 3) return 1;
+    if (n % 2 == 0 || n % 3 == 0) return 0;
+    for (int i = 5; i * i <= n; i += 6) {
+        if (n % i == 0 || n % (i + 2) == 0) return 0;
     }
-    if(b>2||c==1||c==0)
-    {
-        return 0;
-    }
-    else {
-        return 1;
-    }
+    return 1;
 }
 
-int main()
-{
-    int c;
-    scanf("%d",&c);
-    if(isPrime(c))
-    {
-        printf("prime");
+int main() {
+    int t;
+    scanf("%d", &t);
+    while (t--) {
+        int num;
+        scanf("%d", &num);
+        printf("%d\n", isPrime(num));
     }
-    else{
-        printf("not prime");
-    }
+    return 0;
 }
