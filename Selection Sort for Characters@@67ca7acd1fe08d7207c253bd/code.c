@@ -1,16 +1,31 @@
-def selection_sort_chars(n, chars):
-    for i in range(n):
-        min_index = i
-        for j in range(i+1, n):
-            if chars[j] < chars[min_index]:
-                min_index = j
-        chars[i], chars[min_index] = chars[min_index], chars[i]
-    return ' '.join(chars)
+#include<stdio.h>
 
-# Input
-n = int(input())
-chars = input().split()
-
-# Sorting using selection sort
-result = selection_sort_chars(n, chars)
-print(result)
+void selectionSort(char arr[], int n)
+{
+    
+    int i,f;
+    char temp;
+    for(i=0;i<n;i++)
+    {
+        scanf(" %c",&arr[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+    for(f=i+1;f<n;f++)
+    {
+       if(arr[i]>arr[f])
+       {
+        temp=arr[i];
+        arr[i]=arr[f];
+        arr[f]=temp;
+       }
+    }
+    }
+    }
+    void printArray(char arr[],int n)
+    {int i;
+       for(i=0;i<n;i++)
+    {
+        printf("%c ",arr[i]);
+    } 
+    }
