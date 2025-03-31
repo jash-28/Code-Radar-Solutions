@@ -22,7 +22,8 @@ for (i=0;i<n;i++)
         min=y[i];
     }
 }
+
+}
 printf("%d",min);
 printf("%d",max);
-}
 }
