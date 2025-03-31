@@ -18,7 +18,7 @@ int main()
             oddcount++;
         }
     }
-printf("%d",evencount);
+printf("%d ",evencount);
 printf("%d",oddcount);
     return 0;
 }
