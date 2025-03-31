@@ -2,7 +2,7 @@
 int main()
 {
     int y[10],n,i;
-    scanf("%d",&n)
+    scanf("%d",&n);
     for (i=0;i<n;i++)
     {
         scanf("%d",&y[i]);
