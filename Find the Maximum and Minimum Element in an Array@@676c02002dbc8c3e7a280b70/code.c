@@ -11,13 +11,13 @@ int max=y[0];
 int min=y[0];
 for (i=0;i<n;i++)
 {
-    if y[i]>max
+    if (y[i]>max)
     {
         max=y[i];
     }
 for (i=0;i<n;i++)
 {
-    if y[i]<min
+    if (y[i]<min)
     {
         min=y[i];
     }
@@ -26,4 +26,5 @@ for (i=0;i<n;i++)
 }
 printf("%d",min);
 printf("%d",max);
+return
 }
