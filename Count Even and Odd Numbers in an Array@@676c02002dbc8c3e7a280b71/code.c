@@ -5,8 +5,9 @@ int main()
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
-        scanf("%d",k[i]);
-        if (i%2==0)
+        scanf("%d",k[i]);}
+        for(i=0;i<n;i++)
+       { if (k[i]%2==0)
         {
             evencount++;
         }
