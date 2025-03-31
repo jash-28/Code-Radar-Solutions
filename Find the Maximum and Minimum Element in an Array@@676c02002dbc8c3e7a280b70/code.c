@@ -1,4 +1,4 @@
-#include <Stdio.h>
+#include <stdio.h>
 int main()
 {
     int y[10],n,i;
