@@ -15,16 +15,14 @@ for (i=0;i<n;i++)
     {
         max=y[i];
     }
-for (i=0;i<n;i++)
-{
-    if (y[i]<min)
+   if (y[i]<min)
     {
         min=y[i];
     }
 }
 
-}
+
 printf("%d",min);
 printf("%d",max);
-return
+return 0;
 }
