@@ -11,11 +11,11 @@ int main()
     scanf("%d",&p);
     for(i=n-p;i<n;i++)
     {
-        printf("%d",t[i]);
+        printf("%d\n",t[i]);
     }
     for(i=0;i<=p;i++)
     {
-        printf("%d",t[i]);
+        printf("%d\n",t[i]);
     }
     return 0;
 }
