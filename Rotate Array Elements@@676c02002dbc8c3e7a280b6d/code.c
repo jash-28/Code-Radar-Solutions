@@ -9,7 +9,7 @@ int main()
         scanf("%d",&t[i]);
     }
     scanf("%d",&p);
-    for(i=n-p;i<p;i++)
+    for(i=n-p;i<n;i++)
     {
         printf("%d",t[i]);
     }
