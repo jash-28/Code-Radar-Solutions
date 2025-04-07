@@ -13,7 +13,7 @@ int main()
     {
         printf("%d\n",t[i]);
     }
-    for(i=0;i<=p;i++)
+    for(i=0;i<n-p;i++)
     {
         printf("%d\n",t[i]);
     }
