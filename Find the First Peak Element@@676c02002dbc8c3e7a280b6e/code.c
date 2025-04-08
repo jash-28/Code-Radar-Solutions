@@ -13,12 +13,13 @@ int main() {
 
            r= a[i];
            printf("%d",r);
-       
-    }
-    else 
+        else 
     {
         printf("-1");
     }
+       
+    }
+    
     
 
 }
