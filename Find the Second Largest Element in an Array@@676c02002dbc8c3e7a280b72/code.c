@@ -5,6 +5,6 @@ int main()
     scanf("%d",&a);
     for (int i=0;i<a;i++)
    { scanf("%d",&h[i]);}
-   printf("%d",h[n-1]);
+   printf("%d",h[a-1]);
 
 }
