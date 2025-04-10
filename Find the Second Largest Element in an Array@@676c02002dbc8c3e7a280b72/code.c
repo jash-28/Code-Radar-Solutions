@@ -18,5 +18,9 @@ int main()
         d=h[i];
     }
    }
-   printf("%d",d);
+   if(d!=INT_MIN){
+   printf("%d",d);}
+   else{
+    printf("%d",-1)
+   }
 }
