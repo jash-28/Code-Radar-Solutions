@@ -12,7 +12,10 @@ int main()
     if (h[i]>g){
         d=g;
         g=h[i];
-    } 
+    }
+    if(h[i]>d){
+        d=h[i];
+    }
    }
    printf("%d",d);
 }
