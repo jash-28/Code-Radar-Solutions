@@ -7,7 +7,7 @@ int main()
    { 
     scanf("%d",&h[i]);
    }
-   int g=h[0],d=0;
+   int g=h[0],d=-1;
    for (int i=0;i<a;i++){
     if (h[i]<g){
         d=g;
