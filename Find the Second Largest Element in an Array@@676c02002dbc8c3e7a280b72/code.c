@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<linits.h>
+#include<limits.h>
 int main()
 {
     int a,b,h[100];
