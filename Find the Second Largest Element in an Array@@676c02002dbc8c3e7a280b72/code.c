@@ -21,6 +21,6 @@ int main()
    if(d!=INT_MIN){
    printf("%d",d);}
    else{
-    printf("%d",-1)
+    printf("%d",-1);
    }
 }
