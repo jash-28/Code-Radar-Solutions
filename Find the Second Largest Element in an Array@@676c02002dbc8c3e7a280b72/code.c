@@ -13,7 +13,7 @@ int main()
         d=g;
         g=h[i];
     }
-    else if(h[i]>d){
+    else if(h[i]>d && h[i]!=g){
         d=h[i];
     }
    }
