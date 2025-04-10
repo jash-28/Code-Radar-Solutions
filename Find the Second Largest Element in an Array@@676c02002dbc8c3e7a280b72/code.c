@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<linits.h>
 int main()
 {
     int a,b,h[100];
@@ -7,7 +8,7 @@ int main()
    { 
     scanf("%d",&h[i]);
    }
-   int g=h[0],d=-1;
+   int g=h[0],d=INT_MIN;
    for (int i=0;i<a;i++){
     if (h[i]>g){
         d=g;
