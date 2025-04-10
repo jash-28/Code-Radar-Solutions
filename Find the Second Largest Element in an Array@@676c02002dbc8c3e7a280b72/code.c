@@ -1,16 +1,15 @@
 #include <stdio.h>
 int main()
 {
-    int a,b,h[100],i;
+    int a,b,h[100];
     scanf("%d",&a);
-    for (i=0;i<a;i++)
+    for (int i=0;i<a;i++)
    { 
     scanf("%d",&h[i]);
    }
    int g=a[0],d=0;
-   for (i=0,i<a;i++){
-    if (h[i]<g)
-    {
+   for (int i=0;i<a;i++){
+    if (h[i]<g){
         d=g;
         g=h[i];
     } 
