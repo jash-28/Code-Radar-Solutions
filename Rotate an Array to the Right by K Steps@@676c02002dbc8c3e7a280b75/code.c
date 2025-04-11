@@ -9,9 +9,9 @@ int main()
     }
     scanf("%d",&s);
     int l=n-s;
-    for(int i=0;i<l;i++)
+    for(int i=0;i<s;i++)
     {
-        a[i]=t[i];
+        a[i]=t[n-s+i];
 
     }
     printf("%d",a[10]);
