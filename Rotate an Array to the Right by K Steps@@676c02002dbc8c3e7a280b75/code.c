@@ -11,7 +11,8 @@ int main()
     int l=n-s;
     for(int i=0;i<l;i++)
     {
-        a[10]=t[i];
+        a[i]=t[i];
+
     }
     printf("%d",a[10]);
 }
