@@ -14,7 +14,7 @@ int main()
         a[i]=t[n-s+i];
 
     }
-    for (int i=0;i<l-1;i++)
+    for (int i=0;i<l;i++)
     {
         a[s+i]=t[i];
     }
