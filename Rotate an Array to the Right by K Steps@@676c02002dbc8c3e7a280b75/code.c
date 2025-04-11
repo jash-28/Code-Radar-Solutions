@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int t[100],a[10],n,s;
+    int t[100],a[100],n,s;
     scanf("%d",&n);
     for(int i=0;i<n;i++)
     {
@@ -22,4 +22,5 @@ int main()
     {
         printf("%d",a[i]);
     }
+    return 0;
 }
