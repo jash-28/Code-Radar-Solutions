@@ -14,5 +14,6 @@ int main()
         a[i]=t[n-s+i];
 
     }
-    printf("%d",a[10]);
+
+    printf("%d",a[1]);
 }
