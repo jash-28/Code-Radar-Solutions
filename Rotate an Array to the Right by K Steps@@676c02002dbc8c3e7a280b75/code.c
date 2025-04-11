@@ -13,4 +13,5 @@ int main()
     {
         a[10]=t[i];
     }
+    printf("%d",a[10]);
 }
