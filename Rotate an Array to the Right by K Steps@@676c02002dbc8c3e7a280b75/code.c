@@ -16,6 +16,10 @@ int main()
     }
     for (int i=1;i<l;i++)
     {
+        a[s+i]=t[i];
+    }
+    for (int i=0;i<n;i++)
+    {
         printf("%d",a[i]);
     }
 }
